@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./new-pets.component.css']
 })
 export class NewPetsComponent {
-
+  btnText = 'Compartilhar!';
 }
