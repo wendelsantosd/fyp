@@ -1,2 +1,5 @@
 <h2>Compartilhe o seu <span>Pet</span>!</h2>
-<app-pet-form [btnText]="btnText"></app-pet-form>
+<app-pet-form
+  [btnText]="btnText"
+  (onSubmit)="createHandler($event)"
+></app-pet-form>
